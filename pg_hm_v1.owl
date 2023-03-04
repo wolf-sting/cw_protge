@@ -83,6 +83,9 @@
         <Class IRI="#City"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CityRestaurant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Country"/>
     </Declaration>
     <Declaration>
@@ -213,6 +216,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PGhm"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Party_and_Event_Planners"/>
@@ -380,7 +386,7 @@
         <Class IRI="#Organic_Foods_&amp;_Products"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasBase"/>
@@ -404,9 +410,6 @@
         <ObjectProperty IRI="#hascountry"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasfoodtype"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#haspostcode"/>
     </Declaration>
     <Declaration>
@@ -422,13 +425,7 @@
         <ObjectProperty IRI="#isIngredientOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isLocatedIn"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#isToppingOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#sell"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Buon_Cibo"/>
@@ -517,13 +514,6 @@
     <SubClassOf>
         <Class IRI="#Bagel_Shop"/>
         <Class IRI="#Category"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bagel_Shop"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasfoodtype"/>
-            <Class IRI="#PizzaBagel"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bakerys"/>
@@ -619,6 +609,10 @@
     <SubClassOf>
         <Class IRI="#City"/>
         <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CityRestaurant"/>
+        <Class IRI="#Category"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Country"/>
@@ -916,6 +910,82 @@
         <Class IRI="#VegetableTopping"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BlendCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GoatCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#OliveOilTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#ProvoloneCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#RicottaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SausageTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SlicedTomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PGhm"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BlendCheeseTopping"/>
+                <Class IRI="#GoatCheeseTopping"/>
+                <Class IRI="#MozzarellaTopping"/>
+                <Class IRI="#OliveOilTopping"/>
+                <Class IRI="#ProvoloneCheeseTopping"/>
+                <Class IRI="#RicottaTopping"/>
+                <Class IRI="#SausageTopping"/>
+                <Class IRI="#SlicedTomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Party_and_Event_Planners"/>
         <Class IRI="#Category"/>
     </SubClassOf>
@@ -953,6 +1023,46 @@
     <SubClassOf>
         <Class IRI="#PizzaBruschetta"/>
         <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BasilPestoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#OliveTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#RedOnionTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BasilPestoTopping"/>
+                <Class IRI="#OliveTopping"/>
+                <Class IRI="#RedOnionTopping"/>
+                <Class IRI="#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PizzaBurger"/>
@@ -1338,6 +1448,7 @@
         <Class IRI="#GyroPita"/>
         <Class IRI="#Margherita"/>
         <Class IRI="#Maxican"/>
+        <Class IRI="#PGhm"/>
         <Class IRI="#UltimateSupreme"/>
         <Class IRI="#VeganMargherita"/>
         <Class IRI="#VegetarianMaxican"/>
@@ -1574,23 +1685,23 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasaddress"/>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hascity"/>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hascountry"/>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#haspostcode"/>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasstate"/>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isBaseOf"/>
@@ -1610,20 +1721,39 @@
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasTopping"/>
-        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#isToppingOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hascategory"/>
+        <ObjectProperty IRI="#isCategorisedInto"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#hasBase"/>
+        <ObjectProperty IRI="#isBaseOf"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#isToppingOf"/>
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#hasBase"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTopping"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hascategory"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#isBaseOf"/>
     </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isCategorisedInto"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isToppingOf"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#LocatedIn"/>
+    </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#hasIngredient"/>
     </TransitiveObjectProperty>
@@ -1631,7 +1761,7 @@
         <ObjectProperty IRI="#isIngredientOf"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Location"/>
+        <ObjectProperty IRI="#LocatedIn"/>
         <Class IRI="#Location"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1662,6 +1792,30 @@
         <ObjectProperty IRI="#hasTopping"/>
         <Class IRI="#Pizza"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasaddress"/>
+        <Class IRI="#Address"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hascategory"/>
+        <Class IRI="#Category"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hascity"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hascountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haspostcode"/>
+        <Class IRI="#Postcode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasstate"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasBase"/>
         <Class IRI="#Base"/>
@@ -1674,6 +1828,51 @@
         <ObjectProperty IRI="#hasTopping"/>
         <Class IRI="#Base"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasaddress"/>
+        <Class IRI="#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hascity"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hascountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haspostcode"/>
+        <Class IRI="#Postcode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasstate"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Address</IRI>
+        <Literal>Address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Base</IRI>
+        <Literal>Base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bread</IRI>
+        <Literal>Bread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Burger</IRI>
+        <Literal>Burger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Category</IRI>
+        <Literal>Category</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Cheese</IRI>
@@ -1686,8 +1885,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal>City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#CityRestaurant</IRI>
+        <Literal>pg_hm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CityRestaurant</IRI>
+        <Literal>CityRestaurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DomainThing</IRI>
+        <Literal>DomainThing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Eggscellent</IRI>
         <Literal>Eggscellent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal>Food</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1740,9 +1964,34 @@
         <Literal>NonVegetarianPizza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#PGhm</IRI>
+        <Literal>PG_HM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PGhm</IRI>
+        <Literal>Pizza of PGhm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pizza</IRI>
+        <Literal>Pizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restaurants</IRI>
+        <Literal>Restaurants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SlicePizza</IRI>
         <Literal>SlicePizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Topping</IRI>
+        <Literal>Topping</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
