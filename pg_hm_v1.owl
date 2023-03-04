@@ -1,0 +1,1762 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.city.ac.uk/inm713-in3067/2023/pg_hm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.city.ac.uk/inm713-in3067/2023/pg_hm">
+    <Prefix name="" IRI="http://www.city.ac.uk/inm713-in3067/2023/pg_hm"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="hk" IRI="http://www.city.ac.uk/inm713-in3067/2023/pg_hm/hk#"/>
+    <Prefix name="mr" IRI="http://www.city.ac.uk/inm713-in3067/2023/pg_hm/mr#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>pg_hm (Haeun Kim and Mahin Rajput)</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#American_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bagel_Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bakerys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasilPestoTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasilTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlendCheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brew_Pubs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BroccoliTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caterers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheesyPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chinese_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeepDish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delicatessens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomainThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eggscellent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#European_Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_Products_Retail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_and_Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GarlicTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gluten-free_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoatCheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grandma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greek_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GyroPita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerbSpiceTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoneyWheat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItalianSausageTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italian_Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Margherita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarinaraTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maxican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeatTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeatyPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediterranean_Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexican_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MozzarellaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MushroomTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedBread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedBuger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Night_Clubs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonVegetarianPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OliveOilTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OliveTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party_and_Event_Planners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PepperoniTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickledOnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaBagel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaBread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaBruschetta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaBurger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaDoughBalls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaRoll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postcode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvoloneCheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedOnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RicottaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sandwich_Shops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SausageTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seafood_Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SlicePizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SlicedTomatoTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SouceTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpinachTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take_Out_Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taverns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThinandCrispy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TomatoTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tortilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UltimateSupreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variety_Stores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VeganMargherita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetableTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetarianMaxican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetarianPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veggie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VodkaSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteOnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhitePizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodFireGrilled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodOven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar_&amp;_Grills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cajun_/_Creole_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organic_Foods_&amp;_Products"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasaddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hascategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hascity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hascountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasfoodtype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haspostcode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasstate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCategorisedInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isToppingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cedar_Park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermosa_Beach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hernando"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indianapolis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oceano_Bistro_-_Clayton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#US"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2631_Mcingvale_Rd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#38632"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#401_E_Whitestone_Blvd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#44_N_Brentwood,Saint_Louis,US,63105,MO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#46237"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#50a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#78613"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8028_S_Emerson_Ave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#90254"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#American_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bagel_Shop"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bagel_Shop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasfoodtype"/>
+            <Class IRI="#PizzaBagel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bakerys"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bar"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasilPestoTopping"/>
+        <Class IRI="#SouceTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasilTopping"/>
+        <Class IRI="#HerbSpiceTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlendCheeseTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bread"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bread"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBase"/>
+            <Class IRI="#Base"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brew_Pubs"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BroccoliTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBase"/>
+            <Class IRI="#Base"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Category"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caterers"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheeseTopping"/>
+        <Class IRI="#Topping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheesyPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pizza"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTopping"/>
+                <Class IRI="#CheeseTopping"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeepDish"/>
+        <Class IRI="#Dough"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delicatessens"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dough"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggscellent"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#European_Restaurants"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_Products_Retail"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_and_Beverage"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BroccoliTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MushroomTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#PepperTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SpinachTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BroccoliTopping"/>
+                <Class IRI="#MushroomTopping"/>
+                <Class IRI="#PepperTopping"/>
+                <Class IRI="#SpinachTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GarlicTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gluten-free_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoatCheeseTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BasilTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GarlicTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grandma"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BasilTopping"/>
+                <Class IRI="#GarlicTopping"/>
+                <Class IRI="#MozzarellaTopping"/>
+                <Class IRI="#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greek"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greek_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenPepperTopping"/>
+        <Class IRI="#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GyroPita"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerbSpiceTopping"/>
+        <Class IRI="#Topping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoneyWheat"/>
+        <Class IRI="#Dough"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItalianSausageTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italian_Restaurants"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BasilTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MarinaraTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BasilTopping"/>
+                <Class IRI="#MarinaraTopping"/>
+                <Class IRI="#MozzarellaTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinaraTopping"/>
+        <Class IRI="#SouceTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maxican"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeatTopping"/>
+        <Class IRI="#Topping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeatyPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pizza"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTopping"/>
+                <Class IRI="#MeatTopping"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediterranean_Restaurants"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menu"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexican_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MozzarellaTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MushroomTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedBread"/>
+        <Class IRI="#Bread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedBuger"/>
+        <Class IRI="#Burger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedPizza"/>
+        <Class IRI="#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedRestaurant"/>
+        <Class IRI="#Restaurants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Night_Clubs"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonVegetarianPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pizza"/>
+            <ObjectComplementOf>
+                <Class IRI="#VegetarianPizza"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OliveOilTopping"/>
+        <Class IRI="#SouceTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OliveTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnionTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party_and_Event_Planners"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PepperTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PepperoniTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickledOnionTopping"/>
+        <Class IRI="#OnionTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBase"/>
+            <Class IRI="#Base"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBagel"/>
+        <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBread"/>
+        <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBruschetta"/>
+        <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaBurger"/>
+        <Class IRI="#NamedBuger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaDoughBalls"/>
+        <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PizzaRoll"/>
+        <Class IRI="#NamedBread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza_Place"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postcode"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProvoloneCheeseTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pub"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedOnionTopping"/>
+        <Class IRI="#OnionTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurants"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RicottaTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Round"/>
+        <Class IRI="#Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sandwich_Shops"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SausageTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood_Restaurants"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shape"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlicePizza"/>
+        <Class IRI="#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlicedTomatoTopping"/>
+        <Class IRI="#TomatoTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SouceTopping"/>
+        <Class IRI="#Topping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpinachTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports_Bar"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Square"/>
+        <Class IRI="#Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take_Out_Restaurants"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taverns"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThinandCrispy"/>
+        <Class IRI="#Dough"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TomatoTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topping"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tortilla"/>
+        <Class IRI="#Dough"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GreenPepperTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#ItalianSausageTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MushroomTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#OnionTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#PepperoniTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltimateSupreme"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#GreenPepperTopping"/>
+                <Class IRI="#ItalianSausageTopping"/>
+                <Class IRI="#MushroomTopping"/>
+                <Class IRI="#OnionTopping"/>
+                <Class IRI="#PepperoniTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variety_Stores"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VeganMargherita"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableTopping"/>
+        <Class IRI="#Topping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BlendCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GreenPepperTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#OnionTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SpinachTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianMaxican"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BlendCheeseTopping"/>
+                <Class IRI="#GreenPepperTopping"/>
+                <Class IRI="#OnionTopping"/>
+                <Class IRI="#SpinachTopping"/>
+                <Class IRI="#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pizza"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasTopping"/>
+                    <Class IRI="#MeatTopping"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Veggie"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VodkaSource"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#Dough"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteOnionTopping"/>
+        <Class IRI="#OnionTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GarlicTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#OliveOilTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#ProvoloneCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#RicottaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhitePizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SlicedTomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine_Bar"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodFireGrilled"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#BroccoliTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#GoatCheeseTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#PickledOnionTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#SausageTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodOven"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="#BroccoliTopping"/>
+                <Class IRI="#GoatCheeseTopping"/>
+                <Class IRI="#PickledOnionTopping"/>
+                <Class IRI="#SausageTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bar_&amp;_Grills"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cajun_/_Creole_Restaurant"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organic_Foods_&amp;_Products"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Base"/>
+        <Class IRI="#Bread"/>
+        <Class IRI="#Burger"/>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#Topping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cheese"/>
+        <Class IRI="#Eggscellent"/>
+        <Class IRI="#Garden"/>
+        <Class IRI="#Grandma"/>
+        <Class IRI="#Greek"/>
+        <Class IRI="#Grilled"/>
+        <Class IRI="#GyroPita"/>
+        <Class IRI="#Margherita"/>
+        <Class IRI="#Maxican"/>
+        <Class IRI="#UltimateSupreme"/>
+        <Class IRI="#VeganMargherita"/>
+        <Class IRI="#VegetarianMaxican"/>
+        <Class IRI="#Veggie"/>
+        <Class IRI="#VodkaSource"/>
+        <Class IRI="#WhitePizza"/>
+        <Class IRI="#WoodFireGrilled"/>
+        <Class IRI="#WoodOven"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonVegetarianPizza"/>
+        <Class IRI="#VegetarianPizza"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Food_and_Beverage"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NamedRestaurant"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#CA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Cedar_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NamedRestaurant"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pizza_Place"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NamedRestaurant"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pizza_Place"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Hermosa_Beach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Hernando"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#IN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Indianapolis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#MS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NamedRestaurant"/>
+        <NamedIndividual IRI="#Oceano_Bistro_-_Clayton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NamedRestaurant"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pub"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#TX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#US"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#2631_Mcingvale_Rd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postcode"/>
+        <NamedIndividual IRI="#38632"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#401_E_Whitestone_Blvd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#44_N_Brentwood,Saint_Louis,US,63105,MO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postcode"/>
+        <NamedIndividual IRI="#46237"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#50a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postcode"/>
+        <NamedIndividual IRI="#78613"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#8028_S_Emerson_Ave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postcode"/>
+        <NamedIndividual IRI="#90254"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasaddress"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+        <NamedIndividual IRI="#2631_Mcingvale_Rd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascity"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+        <NamedIndividual IRI="#Hernando"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascity"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+        <NamedIndividual IRI="#US"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haspostcode"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+        <NamedIndividual IRI="#38632"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasstate"/>
+        <NamedIndividual IRI="#Buon_Cibo"/>
+        <NamedIndividual IRI="#MS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasaddress"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+        <NamedIndividual IRI="#401_E_Whitestone_Blvd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascity"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+        <NamedIndividual IRI="#Cedar_Park"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascountry"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+        <NamedIndividual IRI="#US"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haspostcode"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+        <NamedIndividual IRI="#78613"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasstate"/>
+        <NamedIndividual IRI="#Doubledave_Pizzaworks"/>
+        <NamedIndividual IRI="#TX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasaddress"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+        <NamedIndividual IRI="#8028_S_Emerson_Ave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascity"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+        <NamedIndividual IRI="#Indianapolis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascountry"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+        <NamedIndividual IRI="#US"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haspostcode"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+        <NamedIndividual IRI="#46237"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasstate"/>
+        <NamedIndividual IRI="#Greek_Pizzeria"/>
+        <NamedIndividual IRI="#IN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasaddress"/>
+        <NamedIndividual IRI="#Oceano_Bistro_-_Clayton"/>
+        <NamedIndividual IRI="#44_N_Brentwood,Saint_Louis,US,63105,MO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasaddress"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+        <NamedIndividual IRI="#50a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascity"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+        <NamedIndividual IRI="#Hermosa_Beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascountry"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+        <NamedIndividual IRI="#US"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haspostcode"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+        <NamedIndividual IRI="#90254"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasstate"/>
+        <NamedIndividual IRI="#Patrick_Molloy_Sports_Pub"/>
+        <NamedIndividual IRI="#CA"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBase"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopping"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasaddress"/>
+        <ObjectProperty IRI="#Location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hascity"/>
+        <ObjectProperty IRI="#Location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hascountry"/>
+        <ObjectProperty IRI="#Location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haspostcode"/>
+        <ObjectProperty IRI="#Location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasstate"/>
+        <ObjectProperty IRI="#Location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isToppingOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBase"/>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTopping"/>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBase"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBase"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Location"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#Bread"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#Burger"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#Bread"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#Burger"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#Base"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Menu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#Base"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cheese</IRI>
+        <Literal>Cheese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CheesyPizza</IRI>
+        <Literal>CheesyPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Eggscellent</IRI>
+        <Literal>Eggscellent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Garden</IRI>
+        <Literal>Garden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grandma</IRI>
+        <Literal>Grandma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Greek</IRI>
+        <Literal>Greek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grilled</IRI>
+        <Literal>Grilled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GyroPita</IRI>
+        <Literal>GyroPita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Margherita</IRI>
+        <Literal>Margherita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Maxican</IRI>
+        <Literal>Maxican</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeatyPizza</IRI>
+        <Literal>MeatyPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NamedPizza</IRI>
+        <Literal>A pizza that can be found on a pizza menu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NonVegetarianPizza</IRI>
+        <Literal>NonVegetarianPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SlicePizza</IRI>
+        <Literal>SlicePizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VegetarianPizza</IRI>
+        <Literal>VegetarianPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WoodOven</IRI>
+        <Literal>WoodOvenPizza</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
