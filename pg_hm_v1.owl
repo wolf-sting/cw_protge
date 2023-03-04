@@ -2066,7 +2066,7 @@ it serves food to students at discounted price</Literal>
         <Literal>WoodOvenPizza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasIngredient</IRI>
         <Literal>the ingredient of ingredients are ingredients of the whole</Literal>
     </AnnotationAssertion>
