@@ -1854,6 +1854,26 @@
         <Literal>Address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#American_Restaurant</IRI>
+        <Literal>restaurant category which serves american foods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#American_Restaurant</IRI>
+        <Literal>American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asian_Restaurant</IRI>
+        <Literal>Asian restaurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bagel_Shop</IRI>
+        <Literal>Bagel shop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Base</IRI>
         <Literal>Base</Literal>
@@ -1879,6 +1899,11 @@
         <Literal>Cheese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CheesyPizza</IRI>
+        <Literal>pizza which has some chese no other toppings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CheesyPizza</IRI>
         <Literal>CheesyPizza</Literal>
@@ -1892,6 +1917,13 @@
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#CityRestaurant</IRI>
         <Literal>pg_hm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CityRestaurant</IRI>
+        <Literal>restaurant created by our team as part of coursework.
+
+it serves food to students at discounted price</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1912,6 +1944,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Food</IRI>
         <Literal>Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Garden</IRI>
+        <Literal>pizza with some broccoli/mushroom/pepper/spinach and cheese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1939,6 +1976,16 @@
         <Literal>GyroPita</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>location of restaurant brokendown in address,city,state,country,postcode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal>Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Margherita</IRI>
         <Literal>Margherita</Literal>
@@ -1949,6 +1996,11 @@
         <Literal>Maxican</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MeatyPizza</IRI>
+        <Literal>pizza which has some meat toppings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MeatyPizza</IRI>
         <Literal>MeatyPizza</Literal>
@@ -1957,6 +2009,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NamedPizza</IRI>
         <Literal>A pizza that can be found on a pizza menu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NamedRestaurant</IRI>
+        <Literal>has instances of the restaurants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NamedRestaurant</IRI>
+        <Literal>named restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2002,6 +2064,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#WoodOven</IRI>
         <Literal>WoodOvenPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasIngredient</IRI>
+        <Literal>the ingredient of ingredients are ingredients of the whole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isIngredientOf</IRI>
+        <Literal>all subproperties and attributes of the properties should reflect those under hasIngredient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isToppingOf</IRI>
+        <Literal>should be added only to one pizza instance</Literal>
     </AnnotationAssertion>
 </Ontology>
 
